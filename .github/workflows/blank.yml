@@ -32,5 +32,5 @@ jobs:
           # Username for authentication.
           username: ${{ secrets.USERNAME }}
           key: ${{ secrets.PRIVATEKEY }}
-          fingerprint: ${{ secrets.PUBLICKEY }}:  
+          fingerprint: ${{ secrets.PUBLICKEY }}
           # File Location or string that contains a private key for either key-based or hostbased user authentication (OpenSSH format)
